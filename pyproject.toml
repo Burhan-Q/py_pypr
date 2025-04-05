@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "py-pypr"
+version = "0.1.0"
+description = "Py Pypr is a pure Python library for functional shift operators."
+authors = [
+  { name="Burhan Qaddoumi" }
+]
+maintainers = [
+  { name="https://github.com/Burhan-Q" }
+]
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.11"
+keywords = [
+    "shift operators",
+    "python",
+    "pypr",
+    "pipelines",
+    "transformation",
+]
+dependencies = []
+
+[project.urls]
+homepage="https://github.com/Burhan-Q/py_pypr"
+source="https://github.com/Burhan-Q/py_pypr"
+issues="https://github.com/Burhan-Q/py_pypr/issues"
+
+[dependency-groups]
+dev = [
+    "mkdocs-material>=9.6.11",
+    "pylint>=3.3.6",
+    "pytest>=8.3.5",
+    "ruff>=0.11.4",
+]
+
+[tool.ruff]
+indent-width = 4
+line-length = 120
+
+[tool.ruff.format]
+line-ending = "auto"
+quote-style = "double"
+
+[tool.pylint]
+line-length = 120
+disable = [
+    "missing-module-docstring",
+]
