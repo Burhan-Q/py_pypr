@@ -175,6 +175,7 @@ cython_debug/
 
 # VS Code settings
 .vscode
+*.code-workspace
 
 # uv
 .python-version
