@@ -19,11 +19,13 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
       - uses: astral-sh/setup-uv@v5
-      - name: Install project
-        run: |
-          uv pip install --system . 
+      # - name: Install project
+      #   run: |
+      #     uv pip install --system . 
+      - name: Install the project
+        run: uv sync --all-extras --dev
       - name: Run tests
         run: |
-          pytest tests
+          uv run pytest tests
 
 
