@@ -15,11 +15,11 @@ Py-Pypr is a pure Python library for functional shift operators, enabling readab
 To install Py-Pypr, use `pip` or `uv`:
 
 ```bash
-uv pip install py-pypr
+uv pip install "git+https://github.com/Burhan-Q/py_pypr/"
 ```
 
 ```bash
-pip install py-pypr
+pip install "git+https://github.com/Burhan-Q/py_pypr/"
 ```
 
 ## Usage
