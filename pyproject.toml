@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "py-pypr"
 version = "0.1.0"
-description = "Py Pypr is a pure Python library for functional shift operators."
+description = "Py-Pypr is a pure Python library for functional shift operators."
 authors = [
   { name="Burhan Qaddoumi" }
 ]
