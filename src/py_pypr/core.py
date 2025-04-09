@@ -77,7 +77,7 @@ class Pypline:
 
     def __call__(self, pyp_obj: PypObject) -> PypObject:
         """Execute the pipeline step on the provided PypObject."""
-        if not isinstance(pyp_obj, PypObject):
+        if not (isinstance(pyp_obj, PypObject) or issubclass(type(pyp_obj), PypObject)):
             raise TypeError("Pypline can only be applied to PypObject")
         kwargs: dict = self.kwargs | {pyp_obj.kw: pyp_obj.data} if pyp_obj.kw else self.kwargs
 
