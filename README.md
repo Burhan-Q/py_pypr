@@ -2,6 +2,10 @@
 
 Py-Pypr is a pure Python library for functional shift operators, enabling readable  and intuitive multi-step data transformation pipelines.
 
+[![PyPI - Version](https://img.shields.io/pypi/v/py-pypr?style=for-the-badge&logo=pypi&logoColor=violet&labelColor=%234B0082)](https://pypi.org/project/py-pypr/) 
+[![GitHub branch check runs](https://img.shields.io/github/check-runs/Burhan-Q/py_pypr/main?style=for-the-badge&logo=github)](https://github.com/Burhan-Q/py_pypr/actions/workflows/ci.yml) 
+![Static Badge](https://img.shields.io/badge/python-3--11%203--12-green?style=for-the-badge&logo=py&color=%231E90FF)
+
 ## Features
 
 - Chainable pipelines for data transformation.
@@ -15,11 +19,11 @@ Py-Pypr is a pure Python library for functional shift operators, enabling readab
 To install Py-Pypr, use `pip` or `uv`:
 
 ```bash
-uv pip install "git+https://github.com/Burhan-Q/py_pypr/"
+uv pip install py_pypr
 ```
 
 ```bash
-pip install "git+https://github.com/Burhan-Q/py_pypr/"
+pip install py_pypr
 ```
 
 ## Usage
